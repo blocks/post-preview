@@ -22,7 +22,7 @@ window.onload = function() {
 </script>
 ```
 
-At a minimum, you'll need to change the `resource` parameter to match your needs.
+At a minimum, you'll need to change the `element` and `resource` parameters to match your needs.
 
 # Advanced Usage
 
@@ -32,6 +32,8 @@ The module can be configured with several optional parameters passed to it's con
 ### `element`
 **(Required)** A DOM element, jQuery element, or selector string to refer to the placeholder element.
 
+### `resource`
+**(Required)** A URL string of the preview resource to render into the template. ie  `'http://wordpress.sparkart.com/wp-json/posts/'+postID`
 
 ### `template`
 If you want to customize the markup, you can override the default markup by passing in a *compiled* handlebars template using this option. See the default template for a starting point to work from. (Defaults to `false`).
