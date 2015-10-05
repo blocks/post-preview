@@ -30,7 +30,7 @@ At a minimum, you'll need to change the `element` and `resource` parameters to m
 The module can be configured with several optional parameters passed to it's constructor. Here is the full list of options:
 
 ### `element`
-**(Required)** A DOM element, jQuery element, or selector string to refer to the placeholder element.
+**(Required)** A DOM element, jQuery element, or selector string to refer to the placeholder element which will be destroyed and replaced with the rendered template.
 
 ### `resource`
 **(Required)** A URL string of the preview resource to render into the template. ie  `'http://wordpress.sparkart.com/wp-json/posts/'+postID`
