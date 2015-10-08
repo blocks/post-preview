@@ -1,6 +1,6 @@
 {
   "name": "blocks-post-preview",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Renders an API response (resource) into markup on a page on the client side.",
   "keywords": [
     "api",
@@ -52,7 +52,6 @@
     ]
   },
   "dependencies": {
-    "querystring": "^0.2.0",
     "solidus-client": "^1.2.2"
   }
 }
