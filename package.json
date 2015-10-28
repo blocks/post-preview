@@ -1,6 +1,6 @@
 {
   "name": "blocks-post-preview",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Renders an API response (resource) into markup on a page on the client side.",
   "keywords": [
     "api",
@@ -43,11 +43,15 @@
     "pretty-hrtime": "^0.2.1",
     "require-dir": "^0.1.0",
     "run-sequence": "~0.3.7",
+    "solidus-client": "^1.2.2",
     "vinyl-source-stream": "^0.1.1"
   },
   "browserify": {
     "transform": [
       "hbsfy"
     ]
+  },
+  "dependencies": {
+    "solidus-client": "^1.2.2"
   }
 }
